@@ -1,0 +1,12 @@
+{
+  "name": "cpa-smart-link",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for CPA Smart Link",
+  "main": "worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy worker.js --name cpa-smart-link"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
